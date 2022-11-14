@@ -28,3 +28,4 @@ git push                    # 第一次之後的push方式
 git checkout main   # 工作目錄轉至main
 git merge develop   # 將develop的檔案merge到main
 ```
+或是使用網頁版的作法

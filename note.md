@@ -8,8 +8,8 @@
 # 將工作目錄(working directory)移置想建立repository的資料夾底下
 cd "/path_to_your_local_directory" 
 git init                        # 建立local git repository
-git add file.extention          # 將file.extention加入git紀錄中
-git commit -m "first commit"    # 類似遊戲存檔的概念
+git add file.extention          # 將更新的file.extention加入git儲列
+git commit -m "first commit"    # 把所有位於git儲列的檔案更新至git紀錄
 git remote add origin URL       # 連線到外部repository的URL
 git push -u origin main         # 第一次將本機端的git紀錄推送到外部repository
 git push                        # 第一次之後的push方式

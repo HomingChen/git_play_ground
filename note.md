@@ -11,5 +11,9 @@ git init                        # 建立local git repository
 git add file.extention          # 將file.extention加入git紀錄中
 git commit -m "first commit"    # 類似遊戲存檔的概念
 git remote add origin URL       # 連線到外部repository的URL
-git push                        # 將本機端的git紀錄推送到外部repository
+git push -u origin main         # 第一次將本機端的git紀錄推送到外部repository
+git push                        # 第一次之後的push方式
+git branch develop              # 建立名稱為develop的分支
+git checkout develop            # 將預設為main的工作目錄切換至develop
+
 ```

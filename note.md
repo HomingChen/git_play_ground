@@ -10,10 +10,17 @@ cd "/path_to_your_local_directory"
 git init                        # 建立local git repository
 git add file.extention          # 將更新的file.extention加入git儲列
 git commit -m "first commit"    # 把所有位於git儲列的檔案更新至git紀錄
-git remote add origin URL       # 連線到外部repository的URL
-git push -u origin main         # 第一次將本機端的git紀錄推送到外部repository
+git remote add origin URL       # 連線到remote端repository的URL
+git push -u origin main         # 第一次將本機端的git紀錄推送到外部repository的brnh(main)
 git push                        # 第一次之後的push方式
 git branch develop              # 建立名稱為develop的分支
 git checkout develop            # 將預設為main的工作目錄切換至develop
 
+```
+
+```powershell
+git branch develop  # 建立新的branch
+git checkout develop    # 工作目錄轉換至branch
+git branch              # 查看本機端目前的所有branch
+git branch -a           # 查看remote端目前的所有branch
 ```

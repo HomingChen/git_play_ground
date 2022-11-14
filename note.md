@@ -23,3 +23,8 @@ git branch -a               # 查看remote端目前的所有branch
 git push -u origin develop  # 第一次將本機端的git紀錄推送到remote端repository的branch(develop)
 git push                    # 第一次之後的push方式
 ```
+將develop中開發完成的檔案merge到main當中
+```powershell
+git checkout main   # 工作目錄轉至main
+git merge develop   # 將develop的檔案merge到main
+```

@@ -10,6 +10,13 @@ cd "/path_to_your_local_directory"
 git init                        # 建立local git repository
 git add file.extention          # 將file.extention加入git紀錄中
 git commit -m "first commit"    # 類似遊戲存檔的概念
-git remote add origin URL       # 連線到外部repository的URL
+git remote add origin URL       # 連線到remote端repository的URL
 git push                        # 將本機端的git紀錄推送到外部repository
+```
+
+```powershell
+git branch develop  # 建立新的branch
+git checkout develop    # 工作目錄轉換至branch
+git branch              # 查看本機端目前的所有branch
+git branch -a           # 查看remote端目前的所有branch
 ```

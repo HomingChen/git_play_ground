@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/hmchen/goPackage/tester"
+	test "github.com/hmchen/goPackage/tester"
 )
 
 func main() {
-	fmt.Println(tester.Tester())
+	fmt.Println(test.Tester())
 }
